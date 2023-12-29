@@ -517,13 +517,22 @@
         justify-content: center !important;
         margin-top: 1rem !important;
 
-        > .elementor-headline-dynamic-wrapper
+        /* > .elementor-headline-dynamic-wrapper
+          > .elementor-headline-dynamic-text {
+          color: white !important;
+          font-weight: bold !important;
+          font-size: 4rem !important;
+        } */
+      }
+      .elementor-widget-animated-headline
+        > .elementor-widget-container
+        > .elementor-headline > .elementor-headline-dynamic-wrapper
           > .elementor-headline-dynamic-text {
           color: white !important;
           font-weight: bold !important;
           font-size: 4rem !important;
         }
-      }
+      
 
       .elementor-headline--style-highlight svg path {
         stroke: #ffcd54 !important;
@@ -7036,8 +7045,8 @@
                         justify-content: center !important;
                         margin-top: -1rem !important;
 
-                        > span
-                          > span {
+                        > .elementor-headline-dynamic-wrapper
+                          > .elementor-headline-dynamic-text {
                           color: white !important;
                           font-weight: bold !important;
                           font-size: 4rem !important;
